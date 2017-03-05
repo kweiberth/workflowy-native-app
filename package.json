@@ -1,0 +1,17 @@
+{
+  "name": "workflowy-native-app",
+  "version": "0.0.1",
+  "productName": "WorkFlowy",
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-packager . --icon \"./icon.icns\"",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^1.6.1",
+    "electron-packager": "^8.5.2"
+  },
+  "dependencies": {
+    "electron-default-menu": "^1.0.0"
+  }
+}
